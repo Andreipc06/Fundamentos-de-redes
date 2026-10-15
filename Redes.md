@@ -1,5 +1,9 @@
+PAN: Red de dispositivos personales con un alcancé aproximado de 10 metros
+
+LAN: Red local fisica que conecta disitintso dispositivos en un espacio real
+
 Wlan: Es una LAN que usa el espectro radioelectrico en lugar de cables
 
-Que es una CAN  conecta varias LAN de distintos edificio que pertenecen a la misma organizacion y estan proximas entre si 
+CAN: conecta varias LAN de distintos edificio que pertenecen a la misma organizacion y estan proximas entre si 
 
-Que es una WAN Conecta redes geograficas
+WAN: Conecta redes geograficas

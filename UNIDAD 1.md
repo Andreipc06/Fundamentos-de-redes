@@ -13,10 +13,13 @@ Las redes informáticas actuales son demasiado importantes desde la digitalizaci
 ### Actividad 1.3
 
 Aruqitectura cliente-servidor
+Un servidor central ofrece servicios que los usuarios  consumen tiene jerárquica y es controlada.
 
-p2p
+p2p (peer to peer)
+No hay servidor central. Cada nodo es cliente y servidor a la vez y estan todos conectados entre si.
 
 blockchain
+**un libro de contabilidad digital descentralizado y seguro que registra información en bloques enlazados criptográficamente, sin depender de una autoridad central**
 
 otra arquitectura emergente
 
