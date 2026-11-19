@@ -80,3 +80,29 @@ Tiene un nucleo mas grueso por donde viajan varios haces a la vez, generados con
 
 En el backbone de internet en los cables submarinos, en los enlaces entre edificios de un campus y en los centros de datos.
 
+### Direcciones MAC
+La direccion MAC es el identificador de 48 bits que tiene cada tarjeta de red y que sirve para indentificar el origen y el destino de una trama dentro de LAN (capa 2).
+
+Como se se escribe la MAC, con 12 digitos hexadecimales y el formato cambia segun el sisytema.
+Los primeros 24 bits identifican al fabricante y los ultimos 24 los asigna el fabricante a cada tarjeta.
+para que sirve la mac: los switches usan la MAC par decidir por que puerto reenviar cada trama y contruyen su tabla de direcciones aprendiendo la MAC de origen.
+
+
+### Unicast 
+
+De uno a uno
+La trama va a un solo destinatario, identificado por su MAC especialmente es el tipo de trafico mas comun.
+
+En el switch
+El switch busca la MAC de destino en su tabla de direcciones y envia la trama solo por el puerto.
+
+### Multicast
+
+de uno a un grupo
+La trama va a un grupo de equipos que se unieron a el, los demas lo ignoran. 
+
+### Brodcast
+
+de uno a todos 
+la trama llega a todos los equipos de la red, con MAC de destino FF:FF:FF:FF:FF:FF; Todos la reciven y la procesan.
+
